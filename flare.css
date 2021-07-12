@@ -7,7 +7,7 @@ body{
 h1, h2, h3{
 	font-family: "papyrus", fantasy;
 	padding: 10px;
-	color: red;
+	color: green;
 }
 
 /* makes image scale to screen size so it will stay in a cube shape*/
@@ -42,7 +42,7 @@ ul{
 }
 
 /* changes the color of links based on already used, currently in use, etc.*/
-a:link{ color: skyblue; }
-a:visited{ color: darkred; }
-a:hover {color: green; }
-a:active{ color: coral; }
+a:link{ color: yellow; }
+a:visited{ color: red; }
+a:hover {color: darkorange; }
+a:active{ color: maroon; }
