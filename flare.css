@@ -7,7 +7,7 @@ body{
 h1, h2, h3{
 	font-family: "papyrus", fantasy;
 	padding: 10px;
-	color: green;
+	color: darkgreen;
 }
 
 /* makes image scale to screen size so it will stay in a cube shape*/
