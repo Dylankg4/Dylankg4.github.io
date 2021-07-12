@@ -19,7 +19,7 @@ img{
 	border-radius: 15px;
 }
 header, footer{
-	background-color: red;
+	background-color: lightgreen;
 }
 
 /* turns individual div elements into cube shapes. Only within the body. Other div will not use this code*/
