@@ -1,0 +1,48 @@
+body{
+	font-size: 20px;
+	text-align: center;
+	background-color: tan;
+}
+
+h1, h2, h3{
+	font-family: "papyrus", fantasy;
+	padding: 10px;
+	color: red;
+}
+
+/* makes image scale to screen size so it will stay in a cube shape*/
+img{
+	max-width: 100%;
+	height: auto;
+	padding: 2px;
+	border:  2px solid darkred;
+	border-radius: 15px;
+}
+header, footer{
+	background-color: sandybrown;
+}
+
+/* turns individual div elements into cube shapes. Only within the body. Other div will not use this code*/
+ body > div{
+	width:  60%;
+	background-color: lightgreen;
+	color: black;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	list-style-position: inside;
+	border-radius: 20px;
+}
+
+/* centers and keeps lines inside of dive cube*/
+ul{
+	text-indent: -1em;
+	list-style-position: inside;
+	text-align: center;
+}
+
+/* changes the color of links based on already used, currently in use, etc.*/
+a:link{ color: skyblue; }
+a:visited{ color: darkred; }
+a:hover {color: green; }
+a:active{ color: coral; }
