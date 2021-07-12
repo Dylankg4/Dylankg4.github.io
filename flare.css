@@ -19,7 +19,7 @@ img{
 	border-radius: 15px;
 }
 header, footer{
-	background-color: sandybrown;
+	background-color: indianred;
 }
 
 /* turns individual div elements into cube shapes. Only within the body. Other div will not use this code*/
@@ -42,7 +42,7 @@ ul{
 }
 
 /* changes the color of links based on already used, currently in use, etc.*/
-a:link{ color: yellow; }
+a:link{ color: darkred; }
 a:visited{ color: red; }
-a:hover {color: darkorange; }
-a:active{ color: maroon; }
+a:hover { color: orange; }
+a:active{ color: yellow; }
